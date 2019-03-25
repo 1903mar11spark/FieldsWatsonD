@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Battle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Marvel2.css">
+    <script src="multipleapi.js"></script>
+</head>
+<body id="Battle">
+    <span id="mainview">
+    <span id="opponent">
+            <button type="button" id="Opponet">Get Your Opponet</button>
+        <div >
+            <img id="superpicO"  alt=" " width="30%" height="35%">
+        </div>
+        <p id="nameO"></p>
+        <p id="fullNameO"></p>
+        <p id="publisherO"></p>
+        <p id="first-appearanceO"></p>
+        <table id="opponentBattleStats">
+                <thead id="powerstats"><th colspan="2">Battlestats</th></thead>
+                <tr>
+                    <td>Intelligence: </td> <td id="intelligenceO"></td>
+                </tr>
+                <tr>
+                 <td>strength: </td> <td id="strengthO"></td>
+             </tr>
+             <tr>
+                 <td>Speed: </td> <td id="speedO"></td>
+             </tr>
+             <tr>
+                 <td>Combat: </td> <td id="combatO"></td>
+             </tr>
+             <tr>
+                 <td>Power: </td> <td id="powerO"></td>
+             </tr>
+             <tr><td>Durability:</td><td id="durabilityO"></td></tr>
+            </table>
+        </table>
+    </span>
+    <form>
+        <br>
+        <br>
+        <br>
+        <br>
+            <button type="button" id="Lets Battle" onclick="LetsBattle()">Let's Battle</button>
+            <br>
+            <br>
+            <br>
+            <button type="button" onClick="location='LetsBattle.html'" >Let's Battle again!!</button>
+    </form>
+    <span id="defender">
+            <button type="button" id="Your Defender">Get Your Defender</button>
+        <div >
+            <img id="superpicD"  alt=" " width="40%" height="55%">
+        </div>
+        <p id="nameD"></p>
+        <p id="fullNameD"></p>
+        <p id="publisherD"></p>
+        <p id="first-appearanceD"></p>
+        <table id="DefenderBattleStats">
+                <thead id="powerstats"><th colspan="2">Battlestats</th></thead>
+                <tr>
+                    <td>Intelligence: </td> <td id="intelligenceD"></td>
+                </tr>
+                <tr>
+                 <td>strength: </td> <td id="strengthD"></td>
+             </tr>
+             <tr>
+                 <td>Speed: </td> <td id="speedD"></td>
+             </tr>
+             <tr>
+                 <td>Combat: </td> <td id="combatD"></td>
+             </tr>
+             <tr>
+                 <td>Power: </td> <td id="powerD"></td>
+             </tr>
+             <tr><td>Durability:</td><td id="durabilityD"></td></tr>
+            </table>
+        </table>
+    </span>
+</div>
+        <ul id="bottom">
+            <li class="inline"><a class="color" href="HomePage.html">Home</a></li>
+            <li class="inline"><a class="color" href="Search.html">Search</a></li>
+            <li class="inline"><a class="color" href="LetsNotBattle.html">Let's Not Battle</a></li>
+            </ul> 
+</body>
+</html>

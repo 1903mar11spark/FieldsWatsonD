@@ -1,0 +1,126 @@
+body{
+    font-family: Marvel;
+}
+#LetsNotBattle{
+    background-image: url("http://az616578.vo.msecnd.net/files/2016/07/08/636035359998686968-1017301227_marc-mora-s-favorite-five-superheroes-321920.jpg");
+    background-repeat :no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1;  
+}
+#Battle{
+    color:silver;
+    background-image: url("z2-sagat2.gif~original.gif");
+    background-repeat :no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1;  
+}
+#Welcome{
+    background-image: url("http://hdqwalls.com/wallpapers/superheroes-minimalism-4k-image.jpg");
+    background-repeat :no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1; 
+}
+#Search{
+    background-image: url("https://www.percussion.com/Assets/uploads/images/superheroes-blue-night.jpg");
+    background-repeat :no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1; 
+}
+#superpicO, #superpicD{
+    width: 55%;
+    height: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+#aliases{
+    width: 50%;
+    height: 50%;
+    display: block;
+    float: left;
+
+}
+#opponent{
+    color: silver;
+    width: 50%;
+    bottom: 25%;
+    flex-grow: 1;
+
+}
+#defender{
+    color: silver;
+    width:50%;
+    bottom: 25%;
+    flex-grow: 1;
+}
+p{
+    color: silver;
+    font-weight: 900;
+}
+#mainview{
+    display: flex;
+    flex-direction: row;
+}
+#options{
+    text-align: center;
+    display:block;
+}
+#name1{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    vertical-align: middle;
+}
+li {
+    text-align: center;
+    font-size: 22px;
+    
+}
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: darkgrey;
+}
+#Next{
+    text-align: center;
+    font-weight: 900;
+}
+h1{
+    text-align: center;
+    color: rgb(208, 142, 209);
+}
+#bottom{
+    bottom: 0;
+    position:fixed;
+}
+.inline{
+    float: left;
+    display: inline;
+}
+.color{
+    color:black;
+}
+button{
+    font-family: Marvel;
+}
+#Hero, #searchHero{
+    text-align: center;
+    font-family: Marvel;
+}
+
+
+
+@font-face { font-family: Marvel; src: url("fontstudio-lab_captainmarvel/CaptainMarvel.otf"); } 
